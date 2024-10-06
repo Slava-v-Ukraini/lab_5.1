@@ -46,6 +46,21 @@
         <mxCell id="WVNO3Ja-GEgBj2tXD5zG-1" value="&lt;span style=&quot;font-size: 9.5pt; line-height: 13.4267px; font-family: &amp;quot;Cascadia Mono&amp;quot;; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;&quot; lang=&quot;EN-US&quot;&gt;c = (h&lt;sup&gt;4&lt;/sup&gt;(s,t) + h(1, s&lt;sup&gt;2&lt;/sup&gt;+&lt;br&gt;t&lt;sup&gt;2&lt;/sup&gt;)) / (1 + h&lt;sup&gt;2&lt;/sup&gt;(st, 1))&lt;/span&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="304" y="230" width="220" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="WVNO3Ja-GEgBj2tXD5zG-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="WVNO3Ja-GEgBj2tXD5zG-2" target="WVNO3Ja-GEgBj2tXD5zG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVNO3Ja-GEgBj2tXD5zG-2" value="h(a,b)" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="650" y="20" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="WVNO3Ja-GEgBj2tXD5zG-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="WVNO3Ja-GEgBj2tXD5zG-3" target="WVNO3Ja-GEgBj2tXD5zG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WVNO3Ja-GEgBj2tXD5zG-3" value="return (a / (b&lt;sup&gt;2&lt;/sup&gt; + 1)) + (1 / (a&lt;sup&gt;2&lt;/sup&gt; + b&lt;sup&gt;2&lt;/sup&gt;));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="120" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WVNO3Ja-GEgBj2tXD5zG-5" value="" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="650" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
